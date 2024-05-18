@@ -1,0 +1,32 @@
+@import "../message.css";
+div.dialog
+{
+    background-color: white;
+    height:550px;
+    width:1000px;
+    margin:auto;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(99, 97, 97);
+}
+h1.header
+{
+    text-align: center;
+}
+p.reason
+{
+    color:darkgray;
+    text-align: center;
+}
+div.solution
+{
+    width:990px;
+    height:400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: auto;
+}

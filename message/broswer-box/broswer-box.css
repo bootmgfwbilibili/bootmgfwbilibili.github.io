@@ -1,0 +1,22 @@
+ul
+{
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+    height: 230px;
+    width: 490px;
+}
+ul li
+{ 
+    background: rgb(223, 221, 221);
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 230px;
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+}
+ul li:last-child
+{
+    margin-right: 0px;
+}

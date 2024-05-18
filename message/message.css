@@ -1,0 +1,33 @@
+body
+{
+    background-image:url('../background-image.jpg');
+    background-size: cover;
+    margin: 0;
+}
+.backcover
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('backcover.png');
+}
+iframe
+{
+    border: none;
+}
+.button
+{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin: 4px 2px;
+    padding: 15px 32px;
+}
+.button:hover
+{
+    background-color: darkblue;
+    color: white;
+}
