@@ -9,7 +9,14 @@
     <body>
         <script>
             a=document.cookie.length;
-            window.alert(a);
+            if(a==0)
+            {
+                window.alert("true")
+            }
+            else
+            {
+                window.alert("false")
+            }
         </script>
         <script>
             var ua = navigator.userAgent.toLowerCase();
