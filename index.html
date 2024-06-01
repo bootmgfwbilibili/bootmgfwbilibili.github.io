@@ -15,7 +15,9 @@
             }
             else
             {
-                document.cookie[0]="0"
+                b=document.cookie;
+                c="1"+document.cookie[1];
+                document.cookie=c;
             }
         </script>
         <script>
