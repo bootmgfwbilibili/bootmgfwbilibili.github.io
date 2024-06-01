@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>提示</title>
+        <link rel="stylesheet" href="index.css">
+        <script>
+            function jump()
+            {
+                window.location.href="/main/home/index.html"
+            }
+        </script>
+    </head>
+    <body>
+        <div class="backcover">
+            <div class="dialog">
+                <h1>系统提示</h1>
+                <p>系统检测到您正在使用<strong>微信浏览器</strong>或者其他可能与此网站不兼容的浏览器</p>
+                <p>使用此浏览器继续访问可能会影响视觉体验甚至某些功能不可用，为了避免影响体验，建议使用以下浏览器</p>
+                <iframe src="../broswer-box/index.html" height="315px" width="1000px"></iframe>
+                <div style="text-align: center;"><button class="button" onclick="jump()">我知道了，继续访问</button></div>
+            </div>
+        </div>
+    </body>
+</html>
