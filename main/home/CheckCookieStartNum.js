@@ -1,6 +1,7 @@
 cookie=document.cookie.split(',');
 if(cookie[0]!="1")
 {
+    window.alert("true");
     window.location.href="/index.html";
 }
 else
