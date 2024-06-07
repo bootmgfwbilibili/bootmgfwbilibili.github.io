@@ -1,9 +1,9 @@
 cookie=document.cookie.split(',');
 if(cookie[0]!="1")
 {
-    window.location.href="/index.html";
+    window.alert("true");
 }
 else
 {
-    cookie[0]="0";
+    window.alert("false");
 }
