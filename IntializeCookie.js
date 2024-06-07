@@ -7,4 +7,5 @@ else
 {
     cookie=document.cookie.split(',');
     cookie[0]=0;
+    document.cookie=cookie;
 }
