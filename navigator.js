@@ -9,5 +9,5 @@ else if (ua.match(/MicroMessenger/i)=="micromessenger")
 }
 else
 {
-    
+    window.location.href="/main/home/index.html"
 }
