@@ -6,6 +6,5 @@ if(length<5)
 else
 {
     cookie=document.cookie.split();
-    cookie[0]="0";
     window.alert(cookie);
 }
