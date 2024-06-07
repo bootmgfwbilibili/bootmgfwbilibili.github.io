@@ -1,0 +1,11 @@
+length=document.cookie.length;
+if(length<5)
+{
+    document.cookie="11000";
+}
+else
+{
+    cookie=document.cookie.split();
+    cookie[0]="0";
+    window.alert(cookie);
+}

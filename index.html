@@ -3,37 +3,23 @@
     <head>
         <meta charset="utf-8">
         <title>正在加载</title>
-        <noscript><iframe src="/message/noscript/index.html" width="1338" height="601"></noscript>
-        <script src="cookie.js"></script>
+        <style>
+            iframe
+            {
+                border: none;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+            }
+        </style>
     </head>
     <body>
-        <script>
-            a=document.cookie.length;
-            if(a==0)
-            {
-                document.cookie="11";
-            }
-            else
-            {
-                b=document.cookie;
-                c="1"+document.cookie[1];
-                document.cookie=c;
-            }
-        </script>
-        <script>
-            var ua = navigator.userAgent.toLowerCase();
-            if(window.navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)) 
-            {
-                window.location.href="/message/mobile/index.html"
-            } 
-            else if (ua.match(/MicroMessenger/i)=="micromessenger") 
-            {  
-                window.location.href="/message/wechat/index.html"
-            }
-            else
-            {
-                window.location.href="/main/home/index.html"
-            }    
-        </script>  
+        <noscript>
+            <iframe src="/message/noscript/index.html">
+                <p>您的浏览器不支持浏览此网站，请下载最新版的<a href="https://www.microsoft.com/zh-cn/edge">Edge浏览器</a>继续</p>
+            </iframe>
+        </noscript>
+        <script src="IntializeCookie.js"></script>
+        <script src="navigator.js"></script>  
     </body>
 </html>
