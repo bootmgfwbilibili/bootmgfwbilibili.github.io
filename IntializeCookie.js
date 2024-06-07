@@ -6,6 +6,6 @@ if(length<9)
 else
 {
     cookie=document.cookie.split(',');
-    cookie[0]=0;
+    cookie[0]=1;
     document.cookie=cookie;
 }
