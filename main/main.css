@@ -4,14 +4,15 @@ body
 }
 div.top
 {
-    background-color: black;
-    color: white;
-    padding: 20px 0 20px 10px;
+    background-image: url("backcover.png");
+    padding: 10px 0 10px 10px;
     margin: 0;
+    border-radius: 5px;
 }
 body
 {
     background-image:url('../background-image.jpg');
     background-size: cover;
+    background-repeat:no-repeat ;
     margin: 0;
 }
