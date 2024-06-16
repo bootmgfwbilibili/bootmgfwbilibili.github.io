@@ -6,18 +6,15 @@ if(cookie[0]!="1")
     document.getElementById("welcome-dropdown").innerHTML="";
     document.getElementById("welcome-para").innerHTML="";
 }
-if(cookie[1]=="1")
+if(cookie[1]=="5")
 {
     document.getElementById("num1").innerHTML="";
-    window.alert(num1+",ture");
 }
-if(cookie[2]=="2")
+if(cookie[2]=="5")
 {
     document.getElementById("num2").innerHTML="";
-    window.alert(num2+",ture")
 }
 if(cookie[3]=="3")
 {
     document.getElementById("num3").innerHTML="";
-    window.alert(num3+",ture")
 }
