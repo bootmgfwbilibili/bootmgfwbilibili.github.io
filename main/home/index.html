@@ -4,17 +4,7 @@
         <meta charset="utf-8">
         <title>首页</title>
         <link rel="stylesheet" href="index.css">
-        <script>
-            function readme()
-            {
-                cookie=document.cookie.split(',');
-                cookie[0]="0"
-                document.cookie=cookie;
-                document.getElementById("welcome-dialog").innerHTML="";
-                document.getElementById("welcome-dropdown").innerHTML="";
-                document.getElementById("welcome-para").innerHTML="";
-            }
-        </script>
+        <script src="function.js"></script>
     </head>
     <body>
         <script src="cookie/IntializeCookie.js"></script>
@@ -71,7 +61,7 @@
             <p style="text-align: center;">选择一项以继续</p>
             <ul class="enter">
                 <li>
-                    <a href="../source-pages/A/index.html" target="_blank">
+                    <a href="../source-pages/A/index.html" target="_blank" onclick="num1()">
                         <img src="icons/enter.png" height="30px" width="30px">
                         <p>
                             <strong>B站每期视频资源</strong><br>
@@ -81,11 +71,11 @@
                     </a>
                 </li>
                 <li>
-                    <a href="../source-pages/B/index.html" target="_blank">
+                    <a href="../source-pages/B/index.html" target="_blank" onclick="num2()">
                         <img src="icons/enter.png" height="30px" width="30px">
                         <p>
                             <strong>UP自制小作品</strong><br>
-                            <small>包括UP练习编程知识时留下的小发明<span id="num1" style="color: red;">（有上新）</span></small>
+                            <small>包括UP练习编程知识时留下的小发明<span id="num2" style="color: red;">（有上新）</span></small>
                             <p class="enter-icon">></p>
                         </p>
                     </a>
@@ -95,7 +85,7 @@
                         <img src="icons/enter.png" height="30px" width="30px">
                         <p>
                             <strong style="color: grey;">网站背景上传（本页正在加紧开发中，暂停使用）</strong><br>
-                            <small>有优质网站背景建议请进<span id="num1" style="color: red;">（背景已换新，感谢@&nbsp;{你的B站网名}&nbsp;提供新背景）</span></small>
+                            <small>有优质网站背景建议请进<span id="num3" style="color: red;">（背景已换新，感谢@&nbsp;{你的B站网名}&nbsp;提供新背景）</span></small>
                             <p class="enter-icon">></p>
                         </p>
                     </a>

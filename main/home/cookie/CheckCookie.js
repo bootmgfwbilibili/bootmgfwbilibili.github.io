@@ -11,26 +11,11 @@ if(cookie[1]=num1)
 {
     document.getElementById("num1").innerHTML="";
 }
-else
-{
-    cookie[1]=num1;
-    document.cookie=cookie
-}
 if(cookie[2]=num2)
 {
     document.getElementById("num2").innerHTML="";
 }
-else
-{
-    cookie[2]=num2;
-    document.cookie=cookie
-}
 if(cookie[3]=num3)
 {
     document.getElementById("num3").innerHTML="";
-}
-else
-{
-    cookie[3]=num3;
-    document.cookie=cookie
 }
