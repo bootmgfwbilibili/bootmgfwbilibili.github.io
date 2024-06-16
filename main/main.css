@@ -1,11 +1,8 @@
-body
-{
-    margin: 0;
-}
+body{margin: 0;}
 div.top
 {
     background-image: url("backcover.png");
-    padding: 10px 0 10px 10px;
+    padding-left: 10px;
     margin: 0;
     border-radius: 5px;
 }
@@ -15,4 +12,83 @@ body
     background-size: cover;
     background-repeat:no-repeat ;
     margin: 0;
+}
+.top-header
+{
+    position: relative;
+    top:10px;
+}
+ul.top
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+ul.top li{float:left;}
+ul.top li a
+{
+    display:inline-block;
+    text-align:center;
+    padding:10px 16px;
+    text-decoration:none;
+    color: black;
+}
+.dropdown-content
+{
+    display:none;
+    position:absolute;
+    background-color:#f9f9f9;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 0 5px;
+    width: 150px;
+    z-index: 1;
+}
+.dropbtn:hover .dropdown-content{display:block;}
+button.dropcontent-button
+{
+    border:none;
+    border-radius: 5px;
+    background-color: blue;
+    text-align: center;
+    padding-top: 0;
+    margin: 4px 2px;
+    height: 30px; 
+    width: 147px;
+}
+.dropcontent-button-text
+{
+    position: relative;
+    bottom: 5px;
+}
+button.dropcontent-button:hover{background-color: darkblue ;}
+li.update-icon{float: right;}
+.update-content
+{
+    display:none;
+    position:absolute;
+    right:9px;
+    background-color:#f9f9f9;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 0 5px;
+    width: 210px;
+    z-index: 1;
+}
+.update-icon:hover .update-content{display:block;}
+iframe{border: none;}
+.update-content-details
+{
+    border: solid blue;
+    border-radius: 5px;
+}
+div.dialog
+{
+    margin:auto;
+    position:absolute;
+    left:0;
+    right:0;
+    top:63px;
+    bottom:0;
 }

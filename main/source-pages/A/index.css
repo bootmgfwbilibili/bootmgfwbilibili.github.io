@@ -1,0 +1,43 @@
+@import "/main/main.css";
+div.tool-list
+{
+    width: 200px;
+    height: 490px;
+    background-color: #eee;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+}
+button
+{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 150px;
+}
+button:hover
+{
+    background-color: darkgray;
+}
+div.intro
+{
+    height: 490px;
+    width: 1100px;
+    margin-top: 10px;
+    margin-left: 230px;
+    border-radius: 10px;
+    border: 1px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div.bottom
+{
+    margin-top: 10px;
+    height: 19px;
+    padding-left: 5px;
+}

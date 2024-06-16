@@ -4,3 +4,42 @@
     margin: 0;
     background-color: yellow;
 }
+ul.enter
+{
+    list-style: none;
+    padding: 0 40px;
+}
+ul.enter li
+{
+    background-color: white;
+    border-radius: 5px;
+    padding: 1px 0;
+    margin: 20px 10px;
+}
+ul.enter li a
+{
+    text-decoration: none;
+    color: black;
+}
+ul.enter li a img
+{
+    float: left;
+    position: relative;
+    top: 24px;
+    margin: 0 6px;
+}
+ul.enter li a small
+{
+    color: grey;
+    position: relative;
+    left: 41px;
+}
+ul.enter li a p.enter-icon
+{
+    color: grey;
+    float: right;
+    position: relative;
+    bottom:65px;
+    right: 10px;
+}
+ul.enter li:hover{background-color: #eee;}
