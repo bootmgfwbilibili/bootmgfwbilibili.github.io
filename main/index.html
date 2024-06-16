@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>首页</title>
+        <link rel="stylesheet" href="index.css">
+        
+    </head>
+    <body>
+        <script src="cookie/IntializeCookie.js"></script>
+        <div class="top">
+            <ul class="top">
+                <li><strong class="top-header">bootmgfw_efi的扩展主页&nbsp;&nbsp;</strong></li>
+                <li class="dropbtn">
+                    <a href="fastgithub_win-x64.zip"download="fastgithub_win-x64.zip" >Github加速器下载</a>
+                    <div class="dropdown-content" >
+                        <small>如果出现资源下载慢，或者失败，或者本站一些页面无法访问时，请下载:</small>
+                        <button class="dropcontent-button"><a href="fastgithub_win-x64.zip" class="dropcontent-button-text" style="color: white;">下载(21.4MB)</a></button>
+                    </div>
+                </li>
+                <li class="dropbtn">
+                    <a href="README.pdf" target="_blank">使用须知</a>
+                    <div class="dropdown-content">
+                        <small>本文包括本网站特色功能和使用须知</small><br>
+                        <small style="color: red; font-weight:bold;" id="welcome-dropdown">注意：首次使用本网站前，请务必阅读！</small>
+                        <button class="dropcontent-button" onclick="readme()"><a href="README.pdf" target="_blank" class="dropcontent-button-text" style="color: white;">打开(263KB)</a></button>
+                    </div>
+                </li>
+                <li class="dropbtn">
+                    <a href="https://github.com/bootmgfwbilibili/bootmgfwbilibili.github.io" target="_blank">Github查码源</a>
+                    <div class="dropdown-content">
+                        <small>本链接为在GitHub上查看本网站码源</small><br>
+                        <small style="color: red; font-weight:bold;">注意：<span style="background-color: yellow;">禁止</span>任何人私自修改代码文件&nbsp;！</small>
+                        <small>如果有任何问题，请在B站私信UP！</small>
+                        <button class="dropcontent-button"><a href="https://github.com/bootmgfwbilibili/bootmgfwbilibili.github.io" target="_blank" class="dropcontent-button-text" style="color: white;">立即跳转</a></button>
+                    </div>
+                </li>
+                <li class="dropbtn">
+                    <a href="https://github.com/bootmgfwbilibili/bootmgfwbilibili.github.io/archive/refs/heads/main.zip" target="_blank">一键下载码源</a>
+                    <div class="dropdown-content">
+                        <small>本链接可以一键下载本网站码源到本地，方便阅读</small><br>
+                        <button class="dropcontent-button"><a href="https://github.com/bootmgfwbilibili/bootmgfwbilibili.github.io/archive/refs/heads/main.zip" target="_blank" class="dropcontent-button-text" style="color: white;">下载(22.5MB)</a></button><hr>
+                        <small style="color: red;">由于GitHub下载链接随时会变更，如果有链接失效，请及时联系UP，谢谢配合！</small><br>
+                    </div>
+                </li>
+                <li class="update-icon" style="float: right;">
+                    <a><img src="icons/update.png" height="23px" width="23px"></a>
+                    <div class="update-content">
+                        <p style="text-align: center;">20240609更新日志</p>
+                        <iframe src="update/update.html" height="140px" width="200px" class="update-content-details"></iframe>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <p class="welcome" id="welcome-para">重要提示：在使用本网站之前，您需要阅读<strong>使用须知（README）文档，<a href="README.pdf" target="_blank" onclick="readme()">点此阅读</a></strong></p>
+        <div class="dialog">
+            <h1 id="dialog-header" style="text-align: center; margin: 0;">欢迎使用</h1>
+            <p id="welcome-dialog" style="text-align: center; margin: 0;"><span style="color: red;">在使用之前，您务必阅读使用须知（README）文档，<a href="README.pdf" target="_blank" onclick="readme()">点此阅读</a></span></p>
+            <p id="num1" style="color: red; text-align: center;">页面已更新，<a href="update/update.html" target="_blank" onclick="num1()">点击查看更新日志</a></p>
+            <p style="text-align: center;">如果有任何问题，请在B站私信UP！<a href="https://space.bilibili.com/1985375079" target="_blank">点此跳转至UP主页</a></p>
+            <p style="text-align: center;">选择一项以继续</p>
+            <ul class="enter">
+                <li>
+                    <a href="../source-pages/A/index.html" target="_blank" onclick="num2()">
+                        <img src="icons/enter.png" height="30px" width="30px">
+                        <p>
+                            <strong>B站每期视频资源</strong><br>
+                            <small>包括每期视频所需要的工具，视频源文件等<span id="num2" style="color: red;">（有上新）</span></small>
+                            <p class="enter-icon">></p>
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="../source-pages/B/index.html" target="_blank" onclick="num3()">
+                        <img src="icons/enter.png" height="30px" width="30px">
+                        <p>
+                            <strong>UP自制小作品</strong><br>
+                            <small>包括UP练习编程知识时留下的小发明<span id="num3" style="color: red;">（有上新）</span></small>
+                            <p class="enter-icon">></p>
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <img src="icons/enter.png" height="30px" width="30px">
+                        <p>
+                            <strong style="color: grey;">网站背景上传（本页正在加紧开发中，暂停使用）</strong><br>
+                            <small>有优质网站背景建议请进<span style="color: red;">（背景已换新，感谢@&nbsp;{你的B站网名}&nbsp;提供新背景）</span></small>
+                            <p class="enter-icon">></p>
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <script src="cookie/CheckCookie.js"></script>
+    </body>
+</html>

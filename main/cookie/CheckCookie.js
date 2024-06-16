@@ -1,0 +1,23 @@
+cookie=document.cookie.split(',');
+if(cookie[0]!="1")
+{
+    document.getElementById("welcome-dialog").innerHTML="";
+    document.getElementById("dialog-header").innerHTML="欢迎回来";
+    document.getElementById("welcome-dropdown").innerHTML="";
+    document.getElementById("welcome-para").innerHTML="";
+}
+if(cookie[1]=="1")
+{
+    document.getElementById("num1").innerHTML="";
+    window.alert(num1+",ture");
+}
+if(cookie[2]=="2")
+{
+    document.getElementById("num2").innerHTML="";
+    window.alert(num2+",ture")
+}
+if(cookie[3]=="3")
+{
+    document.getElementById("num3").innerHTML="";
+    window.alert(num3+",ture")
+}
