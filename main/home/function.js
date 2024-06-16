@@ -9,22 +9,25 @@ function readme()
 }
 function num1()
 {
+    console.log("num1");
     cookie=document.cookie.split(',');
-    cookie[1]=num1;
+    cookie[1]=1;
     document.cookie=cookie;
     document.getElementById("num1").innerHTML="";
 }
 function num2()
 {
+    console.log("num2");
     cookie=document.cookie.split(',');
-    cookie[2]=num2;
+    cookie[2]=2;
     document.cookie=cookie;
     document.getElementById("num2").innerHTML="";
 }
 function num3()
 {
+    console.log("num3");
     cookie=document.cookie.split(',');
-    cookie[3]=num3;
+    cookie[3]=3;
     document.cookie=cookie;
     document.getElementById("num3").innerHTML="";
 }
