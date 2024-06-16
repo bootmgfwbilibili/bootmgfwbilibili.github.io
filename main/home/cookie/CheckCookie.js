@@ -1,4 +1,9 @@
 cookie=document.cookie.split(',');
+num1=cookie[1];
+num2=cookie[2];
+num3=cookie[3];
+window.alert(num1+","+num2+","+num3+",");
+window.alert(cookie);
 if(cookie[0]!="1")
 {
     document.getElementById("welcome-dialog").innerHTML="";
@@ -9,15 +14,15 @@ if(cookie[0]!="1")
 if(cookie[1]=1)
 {
     document.getElementById("num1").innerHTML="";
-    window.alert(cookie[1]+"ture");
+    window.alert(num1+",ture");
 }
 if(cookie[2]=2)
 {
     document.getElementById("num2").innerHTML="";
-    window.alert(cookie[2]+"ture")
+    window.alert(num2+",ture")
 }
 if(cookie[3]=3)
 {
     document.getElementById("num3").innerHTML="";
-    window.alert(cookie[3]+"ture")
+    window.alert(num3+",ture")
 }
