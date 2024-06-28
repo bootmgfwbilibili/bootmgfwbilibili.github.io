@@ -5,7 +5,6 @@ function readme()
     document.cookie=cookie;
     document.getElementById("welcome-dialog").innerHTML="";
     document.getElementById("welcome-dropdown").innerHTML="";
-    document.getElementById("welcome-para").innerHTML="";
 }
 function num1()
 {
