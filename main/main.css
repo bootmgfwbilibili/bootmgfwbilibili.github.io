@@ -62,6 +62,12 @@ button.dropcontent-button
     position: relative;
     bottom: 5px;
 }
+.creator
+{
+    position: relative;
+    top:10px;
+    left:20px;
+}
 button.dropcontent-button:hover{background-color: darkblue ;}
 li.update-icon{float: right;}
 .update-content
@@ -77,7 +83,6 @@ li.update-icon{float: right;}
     z-index: 1;
 }
 .update-icon:hover .update-content{display:block;}
-iframe{border: none;}
 .update-content-details
 {
     border: solid blue;
@@ -89,6 +94,4 @@ div.dialog
     position:absolute;
     left:0;
     right:0;
-    top:80px;
-    bottom:0;
 }
