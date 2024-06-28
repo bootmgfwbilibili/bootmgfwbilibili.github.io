@@ -4,7 +4,6 @@ if(cookie[0]!="1")
     document.getElementById("welcome-dialog").innerHTML="";
     document.getElementById("dialog-header").innerHTML="欢迎回来";
     document.getElementById("welcome-dropdown").innerHTML="";
-    document.getElementById("welcome-para").innerHTML="";
 }
 if(cookie[1]=="5")
 {

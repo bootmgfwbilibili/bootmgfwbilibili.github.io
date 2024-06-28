@@ -43,3 +43,8 @@ ul.enter li a p.enter-icon
     right: 10px;
 }
 ul.enter li:hover{background-color: #eee;}
+ul.enter li a p small span a.creator
+{
+    text-decoration: line-through;
+    color: blue;
+}
