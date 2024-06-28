@@ -9,7 +9,7 @@ if(cookie[1]=="5")
 {
     document.getElementById("num1").innerHTML="";
 }
-if(cookie[2]=="5")
+if(cookie[2]=="0")
 {
     document.getElementById("num2").innerHTML="";
 }
