@@ -1,0 +1,68 @@
+@import "../main.css";
+li.web-list-icon
+{
+    float: right;
+    margin-top: 1px;
+}
+.web-list-content
+{
+    display:none;
+    position:absolute;
+    right:9px;
+    background-color:#f9f9f9;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 0 5px;
+    z-index: 1;
+    width: 200px;
+}
+.web-list-icon:hover .web-list-content{display:block;}
+ul.web-list li a:hover{color: blue;}
+ul.web-list li a.here
+{
+    background-color: rgba(0, 0, 255, 0.164);
+    border-radius: 5px;
+    margin-top:5px;
+}
+div.tab
+{
+    height:99%;
+    width: 150px;
+    background-color:#eee;
+    border-radius: 5px;
+    float: left;
+    padding-top: 5px;
+    overflow: auto;
+}
+.tab-header
+{
+    position: relative;
+    left:47px;
+}
+.tabcontent
+{
+    margin-left: 20px;
+    float: left;
+    height: 100%;
+    width: 86%;
+    display: none;
+}
+.tablinks
+{
+    border: none;
+    width:100%;
+    text-align: left;
+    padding: 10px 0px 10px 5px;
+}
+.tablinks:hover{background-color: grey;}
+.empty
+{
+    margin: 0;
+    position: relative;
+    left:700px;
+}
+iframe
+{
+    border: 1px white;
+    border-radius: 5px;
+}
