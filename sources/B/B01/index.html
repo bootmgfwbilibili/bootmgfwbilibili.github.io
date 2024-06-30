@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/sources/sources.css">
+    </head>
+    <body>
+        <button class="float" onclick="window.open('full-index.html',false)">独立弹出</button>
+        <h2 class="header">自制计算器（命令行版）</h2>
+        <p class="header">UP初学C++语言自制的计算器</p><hr>
+        <p class="strong">使用说明:</p>
+        <ol>
+            <li>
+                <p>打开程序，如图</p>
+                <img src="png/1.PNG">
+            </li>
+            <li>
+                <p>输入要计算的类型对应的序号并按回车，如图（此处以加法为例）</p>
+                <img src="png/2.PNG">
+            </li>
+            <li>
+                <p>输入4个加数，每输入一个加数按一次回车<span style="color: red; background-color: yellow;">（如没有加数请用0占位，不要输入空数）</span></p>
+                <img src="png/3.PNG">
+            </li>
+            <li>
+                <p>输入完成后，按下回车，得到计算结果，然后重复第2步</p>
+                <img src="png/4.PNG">
+            </li>
+            <li>
+                <p>使用完成，可以关闭窗口，也可以在第2步中输入0，即可退出</p>
+                <img src="png/5.PNG">
+            </li>
+        </ol><hr>
+        <p class="important">重要——待解决的bug：</p>
+        <p>由于UP刚刚接触C++语言，技术比较菜，有以下严重问题没有解决</p>
+        <ul>
+            <li>除法只能计算整除，如果计算的式子除不尽，出现了循环小数，就会报错</li>
+            <li>
+                <p>每个计算的值只能输入5位以下的数，如果输多了就会崩溃（问题表现为：像中毒了一样，乱跑码）</p>
+                <p>另外，UP在调试此问题时，IDE报错如下</p>
+                <img src="png/6.PNG"><br>
+                <small>（好像说的是有一个变量没有在正确加载）</small>
+            </li>
+        </ul>
+        <p style="color: red;">如果有懂得大佬，可以在下方下载调试文件，如果有好的解决方案可以私信UP，非常感谢！</p><hr>
+        <p class="strong">下载链接：</p>
+        <p>主程序（下载VC运行库后可以直接运行，适合体验）：<a href="B01.exe">点此下载（12.5KB）</a></p>
+        <p>程序的调试文件（解压后，安装visual studio 2019并打开文件夹里面的.sln文件，适合开发者研究其功能）（中国移动云盘提取）：提取码:FYjy<br><a href="https://caiyun.139.com/m/i?1A5CvuWnbTMtW" target="_blank">点此下载并提取（36.99MB）</a></p>
+    </body>
+</html>
