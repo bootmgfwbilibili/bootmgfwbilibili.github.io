@@ -9,21 +9,21 @@ function readme()
 function num1()
 {
     cookie=document.cookie.split(',');
-    cookie[1]=5;
+    cookie[1]=1;
     document.cookie=cookie;
     document.getElementById("num1").innerHTML="";
 }
 function num2()
 {
     cookie=document.cookie.split(',');
-    cookie[2]=5;
+    cookie[2]=1;
     document.cookie=cookie;
     document.getElementById("num2").innerHTML="";
 }
 function num3()
 {
     cookie=document.cookie.split(',');
-    cookie[3]=3;
+    cookie[3]=1;
     document.cookie=cookie;
     document.getElementById("num3").innerHTML="";
 }
