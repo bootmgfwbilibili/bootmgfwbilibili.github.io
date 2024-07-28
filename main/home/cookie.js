@@ -4,8 +4,8 @@ if(cookielength==0)
     document.cookie="num=1,0,0,0;expires=31 Dec 9999 23:59:59 GMT";
 }
 cookienum=document.cookie.split(';')[0].split('=')[1].split(',');
-varnum1="1";varnum2="1";varnum3="1";
-if(cookienum[0]!="1")
+varnum1=1;varnum2=1;varnum3=1;
+if(cookienum[0]!=1)
 {
     document.getElementById("welcome-dialog").innerHTML="";
     document.getElementById("dialog-header").innerHTML="欢迎回来";
