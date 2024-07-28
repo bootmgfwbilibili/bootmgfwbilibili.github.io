@@ -1,6 +1,6 @@
-cookienum=document.cookie.split(';')[0].split('=')[1].split(',');
 function readme()
 {
+    cookienum=document.cookie.split(';')[0].split('=')[1].split(',');
     cookienum[0]=0;
     document.cookie="num="+cookienum+";expires=31 Dec 9999 23:59:59 GMT";
     document.getElementById("welcome-dialog").innerHTML="";
@@ -8,6 +8,7 @@ function readme()
 }
 function num1()
 {
+    cookienum=document.cookie.split(';')[0].split('=')[1].split(',');
     cookienum[1]=num1;
     cookie=cookienum+";expires=31 Dec 9999 23:59:59 GMT";
     document.cookie=cookie;
@@ -15,6 +16,7 @@ function num1()
 }
 function num2()
 {
+    cookienum=document.cookie.split(';')[0].split('=')[1].split(',');
     cookienum[2]=num2;
     cookie=cookienum+";expires=31 Dec 9999 23:59:59 GMT";
     document.cookie=cookie;
@@ -22,6 +24,7 @@ function num2()
 }
 function num3()
 {
+    cookienum=document.cookie.split(';')[0].split('=')[1].split(',');
     cookienum[3]=num3;
     cookie=cookienum+";expires=31 Dec 9999 23:59:59 GMT";
     document.cookie=cookie;
