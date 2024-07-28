@@ -4,22 +4,21 @@ if(cookielength==0)
     document.cookie="num=1,0,0,0;expires=31 Dec 9999 23:59:59 GMT";
 }
 cookienum=document.cookie.split(';')[0].split('=')[1].split(',');
-varnum1=1;varnum2=1;varnum3=1;
 if(cookienum[0]!=1)
 {
     document.getElementById("welcome-dialog").innerHTML="";
     document.getElementById("dialog-header").innerHTML="欢迎回来";
     document.getElementById("welcome-dropdown").innerHTML="";
 }
-if(cookienum[1]==varnum1)
+if(cookienum[1]==1)
 {
     document.getElementById("num1").innerHTML="";
 }
-if(cookienum[2]==varnum2)
+if(cookienum[2]==1)
 {
     document.getElementById("num2").innerHTML="";
 }
-if(cookienum[3]==varnum3)
+if(cookienum[3]==1)
 {
     document.getElementById("num3").innerHTML="";
 }
