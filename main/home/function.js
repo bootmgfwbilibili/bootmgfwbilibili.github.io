@@ -1,3 +1,4 @@
+cookienum=document.cookie.split(';')[0].split('=')[1].split(',');
 function readme()
 {
     cookienum[0]=0;
