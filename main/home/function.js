@@ -9,21 +9,21 @@ function readme()
 function num1()
 {
     cookienum=document.cookie.split(';')[0].split('=')[1].split(',');
-    cookienum[1]="1";
+    cookienum[1]=1;
     document.cookie="num="+cookienum+";expires=31 Dec 9999 23:59:59 GMT";
     document.getElementById("num1").innerHTML="";
 }
 function num2()
 {
     cookienum=document.cookie.split(';')[0].split('=')[1].split(',');
-    cookienum[2]="1";
+    cookienum[2]=1;
     document.cookie="num="+cookienum+";expires=31 Dec 9999 23:59:59 GMT";
     document.getElementById("num2").innerHTML="";
 }
 function num3()
 {
     cookienum=document.cookie.split(';')[0].split('=')[1].split(',');
-    cookienum[3]="1";
+    cookienum[3]=1;
     document.cookie="num="+cookienum+";expires=31 Dec 9999 23:59:59 GMT";
     document.getElementById("num3").innerHTML="";
 }
