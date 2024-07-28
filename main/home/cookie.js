@@ -12,13 +12,13 @@ if(cookienum[0]!="1")
 }
 if(cookienum[1]=="1")
 {
-    document.getElementById("para-num1").innerHTML="";
+    document.getElementById("num1-para").innerHTML="";
 }
 if(cookienum[2]=="1")
 {
-    document.getElementById("para-num2").innerHTML="";
+    document.getElementById("num2-para").innerHTML="";
 }
 if(cookienum[3]=="1")
 {
-    document.getElementById("para-num3").innerHTML="";
+    document.getElementById("num3-para").innerHTML="";
 }
