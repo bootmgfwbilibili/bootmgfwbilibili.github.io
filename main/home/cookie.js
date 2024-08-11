@@ -14,7 +14,7 @@ if(cookienum[1]=="1")
 {
     document.getElementById("num1-para").innerHTML="";
 }
-if(cookienum[2]=="1")
+if(cookienum[2]=="2")
 {
     document.getElementById("num2-para").innerHTML="";
 }
