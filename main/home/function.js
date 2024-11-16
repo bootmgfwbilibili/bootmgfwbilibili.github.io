@@ -16,7 +16,7 @@ function num1()
 function num2()
 {
     cookienum=document.cookie.split(';')[0].split('=')[1].split(',');
-    cookienum[2]=3;
+    cookienum[2]=4;
     document.cookie="num="+cookienum+";expires=31 Dec 9999 23:59:59 GMT";
     document.getElementById("num2-para").innerHTML="";
 }
